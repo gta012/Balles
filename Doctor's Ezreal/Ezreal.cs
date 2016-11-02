@@ -43,7 +43,7 @@ namespace Ezreal
             if (!_Player.ChampionName.Contains("Ezreal")) return;
             Chat.Print("Doctor's Ezreal Loaded!", Color.Orange);
             Q = new Spell.Skillshot(SpellSlot.Q, 1150, SkillShotType.Linear, 250, 2000, 60);
-            W = new Spell.Skillshot(SpellSlot.W,1000,SkillShotType.Linear,250,1550,80);
+            W = new Spell.Skillshot(SpellSlot.W,545,SkillShotType.Linear,250,1550,80);
             W.AllowedCollisionCount = int.MaxValue;
             E = new Spell.Skillshot(SpellSlot.E,475,SkillShotType.Linear,250,2000,100);
             R = new Spell.Skillshot(SpellSlot.R,5000,SkillShotType.Linear,1000,2000,160);
